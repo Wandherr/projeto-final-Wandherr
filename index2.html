@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style2.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+    <link rel="icon" href="img/icon_logo.png">
     <title>Document</title>
 </head>
 <body>
@@ -13,7 +14,7 @@
     <div class="background">
         <header>
             <div class="logo">
-                <img width="100px" height="100px" src="./img/logo.png" class="img_logo" alt="A logo é composta pela letra A, letra D, letra C e letra P">
+                <img width="100px" height="100px" src="./img/logo.png" class="img_logo" alt="A logo é composta pela letra V, letra S">
             </div><!--logo-->
 
             <div class="cabecalho-link">
@@ -33,11 +34,40 @@
                     <a data-abre-modal="#modal-exemplo-4">Projetos</a>
                 </li>
 
-                
-                              
-                
             </div><!--cabeçalho-link-->
+
+            <div class="btn-abrir-menu" id="btn-menu">
+                <i class="fa-solid fa-list"></i>
+            </div>
+
+            <div class="menu-mobile" id="menu-mobile">
+                <div class="btn-fechar">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+                <nav>
+                    <ul>
+                        <li>
+                            <a data-abre-modal="#modal-exemplo-1">Sobre Mim</a>
+                        </li>
+    
+                        <li>
+                            <a data-abre-modal="#modal-exemplo-2">Curriculo</a>
+                        </li>
+    
+                        <li>
+                            <a data-abre-modal="#modal-exemplo-3">Skills</a>
+                        </li>
+    
+                        <li>
+                            <a data-abre-modal="#modal-exemplo-4">Projetos</a>
+                         </li>
+                    </ul>
+                </nav>
+            </div><!--menu-mobile-->
+            <div class="overlay-menu" id="overlay-menu"></div>
+
         </header>
+
 
         <div class="container-text">
             
@@ -53,20 +83,14 @@
                         <a href="https://bit.ly/47o0rKw" target="_blank"><i class="fa-brands fa-telegram"></i></a>  
                     </div><!--redes-social-->
 
-                    
                 <a  href="mailto:vanderley.silva.vs2@gmail.com" target="_blank"><button class="bt">E-Mail</button></a>
-
                 <a href="https://bit.ly/46YbJp2" target="_blank"><button class="bt">Meu Contato</button></a>
-                               
+            </div><!--textos e redes sociais-->
 
-            </div><!--text-->
 
             <div class="f_perfil">
                 <img class="img_perfil" width="800px" height="800px" src="./img/foto_perfil.png">
             </div>
-
-        
-
         </div><!--container-text-->
 
         
@@ -75,8 +99,7 @@
             <header>
                 <h2>Sobre Mim</h2>
                 <span class="fechar-modal">X</span>
-            </header>
-           
+            </header> 
             <div class="corpo-modal">
                 <p> Olá! Meu nome é Vanderley e atuo como Analista de Recursos Humanos. 
                     Além disso, sou estudante de Análise e Desenvolvimento de Sistemas. 
@@ -88,16 +111,15 @@
             </div>
             <footer>
                 <button class="fechar-modal">ok</button>
-            </footer>      
-        
+            </footer>             
         </div><!--Modal Sobre Mim-->
+
     
         <div id="modal-exemplo-2" class="modal">
             <header>
                 <h2>Curriculo</h2>
                 <span class="fechar-modal">X</span>
             </header>
-           
             <div class="corpo-modal">
                 <p> Olá, seja bem-vindo ao meu currículo. Aqui estão algumas 
                     informações básicas sobre minha experiência e habilidades. 
@@ -106,67 +128,72 @@
                     Agradeço antecipadamente por dedicar seu tempo para 
                     conhecer mais sobre minha trajetória profissional.
                 </p>
-                <a href="https://drive.google.com/file/d/1HOM_n7gZRqLu9CknhkNqFX0CeAxtZthb/view?usp=drive_linkF" target="_blank"><button class="bt">Curriculo</button></a>
-
-        
-                                        
+                <a href="https://drive.google.com/file/d/1HOM_n7gZRqLu9CknhkNqFX0CeAxtZthb/view?usp=drive_linkF" target="_blank"><button class="bt">Curriculo</button></a>                           
             </div>
-
             <footer>
                 <button class="fechar-modal">ok</button>
-            </footer>      
-        
+            </footer>          
         </div><!--Curriculo-->
+
     
         <div id="modal-exemplo-3" class="modal">
             <header>
                 <h2>Minhas Skills</h2>
                 <span class="fechar-modal">X</span>
             </header>
-           
             <div class="corpo-modal">
-                <div class="icon_projetos">
-                    <i class="fa-brands fa-css3-alt"></i>
-                    <i class="fa-brands fa-html5"></i>
-                    <i class="fa-brands fa-js"></i>
-                    <i class="fa-brands fa-java"></i>
-                    <i class="fa-brands fa-python"></i>
-            </div>
-
+                <div class="icon_skills">
+                    <img width="220px" height="220px" src="./img/icon_html5.png" class="b_shadown">
+                    <img width="220px" height="220px" src="./img/icon_css.png" class="b_shadown">
+                    <img width="220px" height="220px" src="./img/icon_javascript.png" class="b_shadown">
+                    <img width="220px" height="220px" src="./img/icon_python.png" class="b_shadown">
+                    <img width="220px" height="220px" src="./img/icon_java2.png" class="b_shadown">
+                    <img width="220px" height="220px" src="./img/Icon_android_studio_b22.png" class="b_shadown">
+                    <img width="220px" height="220px" src="./img/icon_photoshop.png" class="b_shadown">
+                    <img width="220px" height="220px" src="./img/icon_vscode.png" class="b_shadown">
+                </div>
             </div>
             <footer>
                 <button class="fechar-modal">ok</button>
             </footer>      
-        
-        </div><!--Skills-->
+        </div><!--Minhas Skills-->
+
 
         <div id="modal-exemplo-4" class="modal">
             <header>
                 <h2>Meus Projetos</h2>
                 <span class="fechar-modal">X</span>
             </header>
-           
             <div class="corpo-modal">
-                <div class="icon_projetos">
-                    <i class="fa-brands fa-css3-alt"></i>
-                    <i class="fa-brands fa-html5"></i><br>
-                    <i class="fa-brands fa-js"></i>
-                    <i class="fa-brands fa-java"></i>
+                <div id="conteiner">
+                    <div class="coluna">
+                        <div class="card">
+                            <img src="./img/projeto_11.png" alt="uma imagem com uma foto e alguns dados pessoais">
+                            <h4> Portifólio </h4>
+                        </div>
+                    </div>
+                    <div class="coluna">
+                        <div class="card">
+                            <img src="./img/projeto_33.jpg" alt="uma imagem de uma calculadora com botões coloridos">
+                            <h4> Calculadora </h4>
+                        </div>
+                    </div>
+                    <div class="coluna">
+                        <div class="card">
+                            <img src="./img/projeto_22.png" alt="uma imagem da tela de entrar de uma aplicativo mobile">
+                            <h4> ADCP apk </h4>
+                        </div>
+                    </div>
+                </div>
             </div>
-
-            </div>
-            <footer>
-                <button class="fechar-modal">ok</button>
-            </footer>      
-        
         </div><!--Projetos-->
-    
-    
+
         <div id="mascara"></div>
 
-      
     </div><!--background-->
+
     <script src="script.js" defer></script>
     <!-- <script src="script.js"></script> -->
+
 </body>
 </html>
