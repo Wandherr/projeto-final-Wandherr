@@ -163,6 +163,7 @@ header{
     left: 25vw;
     top: 50vh;
     background-color: rgba(0, 0, 0, 0.95);
+    /* backdrop-filter: blur(15px); */
     transform: translateY(-25%);
     padding: 1rem;
     border: 1px solid silver;
